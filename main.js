@@ -37,3 +37,13 @@ form.addEventListener("submit", function(evento) {
     
     localStorage.setItem("db", JSON.stringify(objDados));
 });
+
+const email = document.querySelector('#email');
+email.addEventListener("blur", function() {
+
+    if(email.value == '') {
+        email.classList.add('vazio');
+    }else {
+        email.classList.remove('vazio');
+    }
+})
