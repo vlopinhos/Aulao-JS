@@ -37,3 +37,8 @@ button {
     box-shadow: 1px 1px 1px black;
     cursor: pointer;
 }
+
+.vazio {
+    border-color: red;
+}
+
